@@ -13,7 +13,7 @@
 						height="78" 
 					/>
 					<h2 class="mb-3">{{$t('message.loginToAdmin')}}</h2>
-					<p class="fs-14">{{$t('message.enterUsernameAndPasswordToAccessControlPanelOf')}} {{brand}}.</p>
+					<p class="fs-14">{{$t('message.enterUsernameAndPasswordToAccessControlPanelOf')}}.</p>
 					<v-form v-model="valid" class="mb-4">
 						<v-text-field 
 							label="E-mail ID" 

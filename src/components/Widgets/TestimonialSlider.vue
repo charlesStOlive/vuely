@@ -49,7 +49,7 @@ export default {
   methods: {
     getTestimonials() {
       api
-        .get("testimonials.js")
+        .get("sdtestimonials.js")
         .then(response => {
           this.loader = false;
           this.testimonials = response.data;
