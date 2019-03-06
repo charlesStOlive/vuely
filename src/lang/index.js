@@ -12,11 +12,11 @@ import it from './it';
 import hu from './hu';
 
 export default {
-    en: {
-        message: en
-    },
     fr: {
         message: fr
+    },
+    en: {
+        message: en
     },
     he: {
         message: he

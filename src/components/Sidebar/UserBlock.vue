@@ -4,7 +4,7 @@
 			<img src="/static/avatars/user-13.jpg" alt="avatar" height="40" width="40" class="img-responsive" />
 		</v-list-tile-avatar>
 		<v-list-tile-content class="ml-3">
-			<v-list-tile-title><span>John Leider</span></v-list-tile-title>
+			<v-list-tile-title><span>Charles Saint Olive</span></v-list-tile-title>
 		</v-list-tile-content>
 		<v-menu 
 			bottom
@@ -16,12 +16,12 @@
 			transition="slide-y-transition"
 		>
 			<v-btn dark icon slot="activator" class="ma-0">
-					<v-icon>FR</v-icon>
+					<v-icon>more_vert</v-icon>
 			</v-btn>
 			<div class="dropdown-content">
 				<div class="dropdown-top white--text primary">
-					<span class="white--text fs-14 fw-bold d-block">John Leider</span>
-					<span class="d-block fs-12 fw-light">info@example.com</span>
+					<span class="white--text fs-14 fw-bold d-block">Charles Saint Olive</span>
+					<span class="d-block fs-12 fw-light">fausseAdresse@charles.com</span>
 				</div>
 				<v-list class="dropdown-list">
 					<template v-for="userLink in userLinks" v-if="userLink.id !== 4">

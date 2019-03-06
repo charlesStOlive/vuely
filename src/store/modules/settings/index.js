@@ -17,7 +17,7 @@ const state = {
 	backgroundImage: false,                                // enable sidebar background image
 	horizontalLayoutSidebar: false,                        // horizontal layout sidebar
 	languages,                                             // languages
-	selectedLocale: languages[0],                          // selected locale
+	selectedLocale: languages[1],                          // selected locale
 	sidebarBackgroundImages,                               // sidebar backgorund images
 	selectedSidebarBgImage: sidebarBackgroundImages[0],    // selected sidebar background image
 	sidebarFilters,                                        // sidebar filters
