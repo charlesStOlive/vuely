@@ -4,7 +4,7 @@
     	<vue-perfect-scrollbar class="scroll-area" :settings="settings">
         <v-toolbar flat class="transparent scroll-area navigation">
           <v-list>
-				<app-logo></app-logo>
+				<!-- <app-logo></app-logo> -->
             <user-block></user-block>
 				<template v-for="(category, key) in menus">
 					<div :key="key">

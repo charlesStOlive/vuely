@@ -1,9 +1,9 @@
 <template>
-   <v-list-tile class="sidebar-profile">
+   <v-list-tile class="sidebar-profile mt-3">
 		<v-list-tile-avatar>
-			<img src="/static/avatars/user-13.jpg" alt="avatar" height="40" width="40" class="img-responsive" />
+			<img src="/static/avatars/moije.jpg" alt="avatar" height="40" width="40" class="img-responsive" />
 		</v-list-tile-avatar>
-		<v-list-tile-content class="ml-3">
+		<v-list-tile-content class="ml-1 mr-1">
 			<v-list-tile-title><span>Charles Saint Olive</span></v-list-tile-title>
 		</v-list-tile-content>
 		<v-menu 

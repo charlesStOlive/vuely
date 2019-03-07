@@ -2,7 +2,8 @@
 <template>
 	<div class="app-horizontal-layout">
 		<template v-if="loading">
-			<rotate-square2></rotate-square2>
+			<!-- <rotate-square2></rotate-square2> -->
+      <ModalLoader></ModalLoader>
 		</template>
 		<template v-else>
 			<!-- App Header -->
@@ -36,6 +37,7 @@ import AppHorizontalMenus from "Components/AppHorizontalMenus/AppHorizontalMenus
 import PageTitleBar from "Components/PageTitleBar/PageTitleBar";
 import { mapGetters } from "vuex";
 import Sidebar from "Components/Sidebar/Sidebar";
+import ModalLoader from "Components/Loader/ModalLoader";
 
 export default {
   data() {
@@ -48,7 +50,8 @@ export default {
     appCustomizer: Customizer,
     appHorizontalMenus: AppHorizontalMenus,
     PageTitleBar,
-    appSidebar: Sidebar
+    appSidebar: Sidebar,
+    ModalLoader
   },
   mounted() {
     setTimeout(() => {

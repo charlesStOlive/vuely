@@ -29,7 +29,7 @@
 				</div>
 				<div class="site-logo-wrap d-custom-flex ml-0 align-items-center" v-else>
 					<router-link to="/horizontal/dashboard/ecommerce" class="grayish-blue site-logo-img">
-						<img src="/static/img/site-logo.png" alt="site logo" width="100" height="30">
+						<img src="/static/img/logo-04.png" alt="site logo" width="auto" height="30">
 					</router-link>
 				</div>
 				<quick-links></quick-links>

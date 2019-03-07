@@ -2,7 +2,8 @@
 <template>
    <div class="app-boxed-layout boxed-v2">
       <template v-if="loading">
-			<rotate-square2></rotate-square2>
+			<!-- <rotate-square2></rotate-square2> -->
+			<ModalLoader></ModalLoader>
 		</template>
       <div class="app-container" v-else>
          <!-- App Header -->
@@ -42,6 +43,8 @@ import Footer from "Components/Footer/Footer.vue";
 import Customizer from "Components/Customizer/Customizer";
 import AppHorizontalMenus from "Components/AppHorizontalMenus/AppHorizontalMenus";
 import PageTitleBar from "Components/PageTitleBar/PageTitleBar";
+
+import ModalLoader from "Components/Loader/ModalLoader";
 import { mapGetters } from "vuex";
 
 export default {
@@ -61,7 +64,8 @@ export default {
 		appFooter: Footer,
 		appCustomizer: Customizer,
 		appHorizontalMenus: AppHorizontalMenus,
-		PageTitleBar
+		PageTitleBar,
+    	ModalLoader
 	},
 	computed: {
 		...mapGetters(["selectedRouterAnimation", "rtlLayout"]),

@@ -2,7 +2,7 @@
 <template>
 	<div class="app-default-layout">
 		<template v-if="loading">
-			<rotate-square2></rotate-square2>
+			<ModalLoader></ModalLoader>
 		</template>
 		<template v-else>
 			<!-- App Header -->
@@ -25,6 +25,7 @@
 <script>
 import { mapGetters } from "vuex";
 import Header from "Components/Header/Header.vue";
+import ModalLoader from "Components/Loader/ModalLoader";
 import Customizer from "Components/Customizer/Customizer";
 import Tour from "Components/Tour/Tour";
 import AppConfig from "Constants/AppConfig";
@@ -38,7 +39,8 @@ export default {
   components: {
     appHeader: Header,
     appCustomizer: Customizer,
-    Tour
+    Tour,
+    ModalLoader
   },
   computed: {
     ...mapGetters(["selectedRouterAnimation"])

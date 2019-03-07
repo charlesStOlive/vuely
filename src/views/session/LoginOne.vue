@@ -9,8 +9,6 @@
 					<img 
 						:src="appLogo"
 						class="img-responsive mb-3" 
-						width="78" 
-						height="78" 
 					/>
 					<h2 class="mb-3">{{$t('message.loginToAdmin')}}</h2>
 					<p class="fs-14">{{$t('message.enterUsernameAndPasswordToAccessControlPanelOf')}}.</p>
@@ -38,10 +36,10 @@
 							<v-btn large @click="submit" block color="primary">{{$t('message.loginNow')}}</v-btn>
 							<v-btn large @click="onCreateAccount" block color="warning">{{$t('message.createAccount')}}</v-btn>
 						</div>
-						<p>{{$t('message.bySigningUpYouAgreeTo')}} {{brand}}</p>
+						<p>{{$t('message.bySigningUpYouAgreeTo')}} </p>
 						<router-link to="">{{$t('message.termsOfService')}}</router-link>
 					</v-form>
-					<div class="session-social-links d-inline-block">
+					<!-- <div class="session-social-links d-inline-block">
 						<ul class="list-inline">
 							<li @click="signInWithFacebook">
 								<span class="facebook-bg session-icon">
@@ -70,7 +68,7 @@
 						>
 							Signin With Auth0
 						</v-btn>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -105,7 +103,7 @@ export default {
       ],
       password: "test#123",
       passwordRules: [v => !!v || "Password is required"],
-      appLogo: AppConfig.appLogo2,
+      appLogo: AppConfig.appLogo,
       brand: AppConfig.brand
     };
   },

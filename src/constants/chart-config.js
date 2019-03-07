@@ -3,8 +3,8 @@
 */
 export const ChartConfig = {
    color: {
-      'primary': '#5D92F4',
-      'warning': '#FFB70F',
+      'primary': '#546e7a',
+      'warning': '#263238',
       'danger': '#FF3739',
       'success': '#00D014',
       'info': '#00D0BD',

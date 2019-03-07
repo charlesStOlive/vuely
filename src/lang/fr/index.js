@@ -198,7 +198,7 @@ export default {
   loginNow: 'Se connecter',
   createAccount: 'Créer un compte',
   termsOfService: "Conditions d'utilisation",
-  bySigningUpYouAgreeTo: 'En vous inscrivant, vous acceptez',
+  bySigningUpYouAgreeTo: "En vous inscrivant, vous acceptez... rien du tout ! Rien ne sera enregistré c'est une démo !",
   loginToAdmin: 'Connectez-vous au site de démo',
   enterUsernameAndPasswordToAccessControlPanelOf: "C'est une démo, tout est bidon! cliquez juste sur Se connecter",
   havingAnAccount: 'Avoir un compte?',

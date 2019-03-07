@@ -2,7 +2,8 @@
 <template>
 	<div class="app-mini-layout">
 		<template v-if="loading">
-			<rotate-square2></rotate-square2>
+			<!-- <rotate-square2></rotate-square2> -->
+      <ModalLoader></ModalLoader>
 		</template>
 		<template v-else>
 			<!-- App Header -->
@@ -28,6 +29,7 @@ import Header from "Components/Header/Header.vue";
 import Customizer from "Components/Customizer/Customizer";
 import Tour from "Components/Tour/Tour";
 import AppConfig from "Constants/AppConfig";
+import ModalLoader from "Components/Loader/ModalLoader";
 
 export default {
   data() {
@@ -38,7 +40,8 @@ export default {
   components: {
     appHeader: Header,
     appCustomizer: Customizer,
-    Tour
+    Tour,
+    ModalLoader
   },
   computed: {
     ...mapGetters(["selectedRouterAnimation"])
