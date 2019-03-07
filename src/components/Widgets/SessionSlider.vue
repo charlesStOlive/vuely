@@ -29,7 +29,7 @@ export default {
     Slick
   },
   mounted() {
-    this.getTestimonials();
+    //this.getTestimonials();
   },
   computed: {
     slickOptions() {
@@ -46,22 +46,31 @@ export default {
   },
   data() {
     return {
-      loader: true,
-      testimonials: null
-    };
+      loader: false,
+      testimonials: [
+          {
+              "id": 1,
+              "name": "C'est quoi cette démo ?",
+              "avatar": "http://reactify.theironnetwork.org/data/images/user-1.jpg",
+              "profile": "http://reactify.theironnetwork.org/data/images/client-1.png",
+              "designation": "Le clone d'une app ENVATO",
+              "body": "Après une petite dépense de 50$ sur Envato Market, j'ai 'cloné' la démo, j'ai juste modifié les couleurs le logo et quelques infos à droite et à gauche. Le but de cette démo est de montrer que je comprends et je sais adminsitrer les apps." 
+          },
+      ]
+    }
   },
   methods: {
-    getTestimonials() {
-      api
-        .get("testimonials.js")
-        .then(response => {
-          this.loader = false;
-          this.testimonials = response.data;
-        })
-        .catch(error => {
-          console.log(error);
-        });
-    }
+  //   getTestimonials() {
+  //     api
+  //       .get("testimonials.js")
+  //       .then(response => {
+  //         this.loader = false;
+  //         this.testimonials = response.data;
+  //       })
+  //       .catch(error => {
+  //         console.log(error);
+  //       });
+  //   }
   }
 };
 </script>
