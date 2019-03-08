@@ -24,8 +24,8 @@
 					<router-view></router-view>
 				</transition>
 			</v-content>
-			<!-- app customizer -->
-			<app-customizer></app-customizer>
+			<!-- app customizer 
+			<app-customizer></app-customizer>-->
 		</template>
 	</div>
 </template>

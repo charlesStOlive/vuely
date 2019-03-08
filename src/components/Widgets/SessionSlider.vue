@@ -14,6 +14,7 @@
               <span class="d-block client-digg">{{testimonial.designation}}</span>
             </div>
             <p class="px-4">{{testimonial.body}}</p>
+            <v-btn small color="primary" href="http://charles-saint-olive.com">Retour sur mon site</v-btn>
           </div>
         </div>
       </template>
@@ -51,10 +52,10 @@ export default {
           {
               "id": 1,
               "name": "C'est quoi cette démo ?",
-              "avatar": "http://reactify.theironnetwork.org/data/images/user-1.jpg",
-              "profile": "http://reactify.theironnetwork.org/data/images/client-1.png",
-              "designation": "Le clone d'une app ENVATO",
-              "body": "Après une petite dépense de 50$ sur Envato Market, j'ai 'cloné' la démo, j'ai juste modifié les couleurs le logo et quelques infos à droite et à gauche. Le but de cette démo est de montrer que je comprends et je sais adminsitrer les apps." 
+              "avatar": "/static/avatars/moije.jpg",
+              "profile": "Voir mon site",
+              "designation": "Un clone de VUELY",
+              "body": "Après une petite dépense de 50$ sur Envato Market, j'ai 'cloné' et mis en ligne cette app, j'ai juste modifié les couleurs le logo et quelques infos à droite et à gauche" 
           },
       ]
     }

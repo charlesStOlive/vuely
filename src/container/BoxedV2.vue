@@ -30,8 +30,8 @@
          <v-footer> 
             <app-footer></app-footer>
          </v-footer>
-         <!-- app customizer -->
-         <app-customizer></app-customizer>
+         <!-- app customizer 
+         <app-customizer></app-customizer>-->
       </div>
    </div>
 </template>
