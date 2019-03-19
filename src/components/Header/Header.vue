@@ -41,7 +41,7 @@
 				</div>
 			</div>
 			<div class="navbar-right">
-				<v-btn class="v-step-2 upgrade-btn" color="primary" tag="link" @click="sidebarPath('/pages/pricing-1')">{{ $t('message.pricing') }}</v-btn>
+				<v-btn class="v-step-2 upgrade-btn" color="primary" tag="link" href="http://charles-saint-olive.com">Retour sur mon site</v-btn>
 				<v-btn icon large @click="toggleFullScreen" class="full-screen ma-0">
 					<v-icon color="grey">fullscreen</v-icon>
 				</v-btn>
